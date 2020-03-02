@@ -1,0 +1,25 @@
+
+
+.media-product-sm {
+   min-height: 73px;
+   margin-bottom: 8px;
+   
+   img {
+      max-width: 61px;
+      width: 100%;
+   }
+   h5 {
+      margin-bottom: 6px;
+   }
+   p {
+      font-size: 0.95em;
+      color: $black;
+   }
+   
+   @include media-breakpoint-up(md){
+      margin-bottom: 15px;
+      img {
+         max-width: 75px;
+      }
+   }
+}

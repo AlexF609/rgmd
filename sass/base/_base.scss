@@ -1,0 +1,101 @@
+
+
+body {
+   background-color: $prymary_bg;
+   color: $color_text;
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color_heading;
+    font-weight: bold;
+
+   .text {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    a.text {
+        text-decoration: underline;
+    }
+}
+
+h1 {
+   margin-bottom: 30px;
+}
+
+h2 {
+   font-size: 25px;
+   margin-bottom: 25px;
+}
+h3 {
+   font-size: 18px;
+}
+h4 {
+   font-size: 16px;
+}
+h5{
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+h6 {
+   font-size: 0.9em;
+   margin-bottom: 8px;
+}
+
+p {
+   margin-bottom: 18px;
+   
+   &.sm {
+      font-size: 0.85em;
+   }
+}
+
+a {
+   color: inherit;
+}
+
+.wrapper {
+   padding-top: 70px;
+   padding-bottom: 80px;
+}
+
+
+.container {
+   max-width: 1024px;
+   
+   &.container-md {
+      max-width: 992px;
+   }
+   
+   @include media-breakpoint-down(sm) {
+      &.container-md {
+         max-width: calc(100% - 60px);
+      }
+   }
+}
+
+
+// Global 
+
+img {
+   max-width: 100%;
+}
+
+.lead-heading {
+   opacity: 0.68;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.lead {
+   font-size: 1em;
+   opacity: 0.9;
+   margin: 0 auto 40px;
+   max-width: 100%;
+   width: 288px;
+   text-align: center;
+}
+

@@ -1,0 +1,110 @@
+
+
+.form {
+   max-width: 600px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   
+   legend {
+      line-height: 1.5;
+      font-weight: 700;
+      font-size: inherit;
+      margin-bottom: 0;
+      padding: 7px 0 10px;
+      color: #000;
+   }
+   
+   .form-inner {
+      padding-left: 12px;
+      padding-right: 12px;
+   }
+}
+
+input {
+   font-size: 15px;
+   border: 1px solid $disabled;
+   display: block;
+   height: 40px;
+   background-color: $prymary_bg;
+   color: $color_text;
+   width: 100%;
+   padding: 0 22px 0px 15px;
+   &:focus{
+      outline: none;
+      border: 1px solid $primary;
+   }
+   &::placeholder{
+      color: #b9b9b9;
+      font-size: 15px;
+   }
+}
+.unedit{
+   border: 0;
+   height: auto;
+   background-color: transparent;
+   padding: 0;
+}
+.box-input {
+   position: relative;
+   margin-bottom: 25px;
+}
+input[type=password]{
+   font-size: 20px;
+}
+label{
+   font-size: 14px;
+}
+select {
+   background: url(../images/dpdn-arrow.png) scroll 0 0 no-repeat;
+   background-position: calc(100% - 10px) center;
+   background-size: 10px auto;
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   border-radius: 0;
+   background-color: $white;
+}
+.select-sm{
+   font-size: 0.8em;
+   padding: 0px 30px 0px 10px;
+}
+.select-md{
+   padding: 7px 30px 7px 10px;
+   font-size: 15px;
+}
+.select-lg{
+   padding: 10px 30px 10px 10px;
+   background-color: $prymary_bg;
+}
+.validate-input{
+   position: relative;
+}
+.char-content{
+   margin-top: 8px;
+   .char{
+      font-size: 13px;
+      margin-bottom: 0;
+      &.checked{
+         position: relative;
+         color: $black;
+         &:before{
+            content: "\f14a";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 600;
+            padding-right: 8px;
+         }
+      }
+      &.no-checked{
+         position: relative;
+         color: #787878;
+         &:before{
+            content: "\f410";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 600;
+            padding-right: 8px;
+            font-size: 11.5px;
+         }
+      }
+   }
+}

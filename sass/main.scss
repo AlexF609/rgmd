@@ -1,0 +1,30 @@
+@import "assets/fontawesome/fontawesome"; // <------- Font Awesome
+@import "assets/fontawesome/solid.scss"; // <------- Font Awesome Solid
+@import "assets/fontawesome/regular.scss"; // <------- Font Awesome Regular
+@import "assets/fontawesome/brands.scss"; // <------- Font Awesome Brands
+@import "base/variables"; // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "base/mixins";
+@import "assets/bootstrap4";
+
+//Optional files - If you don´t use the corresponding scripts/fonts comment em out
+
+// Any additional imported files //
+@import "base/base"; // <--------- Add your styles into this file
+
+@import "partial/header";
+@import "partial/card";
+@import "partial/forms";
+@import "partial/buttons";
+@import "partial/alerts";
+@import "partial/modal";
+@import "partial/shopping-cart";
+@import "partial/media";
+
+@import "partial/tables";
+@import "partial/steps";
+
+// Pages
+@import "partial/login";
+@import "partial/dashboard";
+@import "partial/frontend";
+@import "partial/create-account";

@@ -1,0 +1,74 @@
+@mixin heading-all {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   text-align: center;
+   @include media-breakpoint-up(md){
+      max-width: 520px;
+   }
+}
+
+//------------------------------------------------------
+// Helpers
+//------------------------------------------------------
+@mixin center-element {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin vertical-align {
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+@mixin hidden {
+   display: none;
+   visibility: hidden;
+}
+
+//------------------------------------------------------
+// Helpers
+//------------------------------------------------------
+
+@mixin checkbox-mix {
+   input[type="checkbox"] {
+      display: none;
+      
+      & + label {
+         padding-left: 40px;
+         position: relative;
+         transition: all 0.2s;
+         
+         &:before {
+            content: "\e926";
+            position: absolute;
+            font-family: icomoon!important;
+            font-size: 29px;
+            line-height: 21px;
+            display: block;
+            left: 0;
+            top: 0;
+            color: $color-back;
+         }
+         
+         &:hover {
+            color: $color-green;
+            &:before {
+               border-color: $color-green;
+            }
+         }
+      }
+      
+      &:checked + label {
+         &:before {
+            color: $color-green;
+            content: "\e925";
+         }
+      }
+      
+   }
+}
