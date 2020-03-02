@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <title>Regimen MD</title>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="author" content="">
+   <link rel="shortcut icon" href="images/favicon-32x32.png">
+   <!-- build:css -->
+   <link rel="stylesheet" href="css/main.css">
+   <!-- endbuild -->
+</head>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<body>
+   <nav class="dashboard-nav">
+      <div class="inner-pad">
+         <picture class="nav-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="468" height="94" viewBox="0 0 468 94">
+               <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                  <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+                  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <rdf:Description rdf:about=""/>
+               </rdf:RDF>
+            </x:xmpmeta>                        
+            <?xpacket end="w"?></metadata>
+            <image width="468" height="94" xlink:href="data:img/png;base64,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"/>
+         </svg>
+      </picture>
+   </div>
+   
+   <ul class="dmain-menu">
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"><i class="fas fa-home"></i></span> Dashboard</a>
+      </li>
+      <li>
+         <a href="./patients.html" class="nav-link"> <span class="nav-icon"><i class="fas fa-user-injured"></i></span> Patients</a>
+      </li>
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"></span> Orders</a>
+      </li>
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"></span> My Practice</a>
+      </li>
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"></span> Orders</a>
+      </li>
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"></span> Physician's Top Picks</a>
+      </li>
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"></span> My Account</a>
+      </li>
+      <li>
+         <a href="javascript:;" class="nav-link"> <span class="nav-icon"></span> Help and Support</a>
+      </li>
+   </ul>
+   
+   <div class="inner-pad text-center">
+      <a href="" class="btn btn-light">Add New Patient</a>
+   </div>
+</nav>
+<!-- /. dashboard-nav -->
+
+<header class="dashboard-header">
+   <nav class="navbar fixed-top">
+      <div class="nav-left">
+         Hello, Leslee Moss! <span class="badge badge-pill badge-primary">Staff</span>
+      </div>
+      
+      <div class="nav-right">
+         <a href="javascript:;" class="user-info">
+            <strong>My Account</strong>
+         </a>
+         <a class="link" href="">Need Help?</a>
+      </div>
+   </nav>
+</header>
+<!-- /. dashboard-header -->
+
+<section id="dashboard_main" class="dashboard-main">
+   <div class="content-wrap">
+      <h2>Patients</h2>
+      <p>All Patients</p>
+      <div class="d-filters top-filters">
+         <div class="filter-search">
+            <input type="search" placeholder="Search" name="search" id="search">
+         </div>
+         <div class="d-flex">
+            <div class="filter-group">
+               <label for="physicians">FILTER BY</label>
+               <select class="select-md" name="compare-to" id="physicians">
+                  <option value="" selected>All physicians</option>
+                  <option value="physicians1">physicians 1</option>
+                  <option value="physicians1">physicians 2</option>
+                  <option value="physicians1">physicians 3</option>
+               </select>
+            </div>
+            <div class="filter-group">
+               <select class="select-md" name="filter-view" id="status">
+                  <option value="" selected>All Status</option>
+                  <option value="status1">Status 1</option>
+                  <option value="status2">Status 2</option>
+                  <option value="status3">Status 3</option>
+               </select>
+            </div>
+         </div>
+      </div>
+      <hr>
+      <!-- /. Filters -->
+      <div class="box-actions">
+         <div class="actions">
+            <a href="#" data-toggle="modal" data-target="#reassign_patients">
+               Reassign Physician(s)
+            </a>
+         </div>
+      </div>
+      <!-- /. Actions -->
+      <div class="col">
+         <table class="table table-box table-striped">
+            <thead>
+               <tr>
+                  <th></th>
+                  <th>Patient Name</th>
+                  <th>Email Address</th>
+                  <th>Physician</th>
+                  <th>Date Added</th>
+                  <th>Status</th>
+                  <th></th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check1">
+                        <label class="check-label" for="check1"></label>
+                     </div>
+                  </td>
+                  <td>Alex Walker</td>
+                  <td>awalker422@yahoo.com</td>
+                  <td>Dr. Ruth Tedaldi</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check2">
+                        <label class="check-label" for="check2"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check3">
+                        <label class="check-label" for="check3"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check4">
+                        <label class="check-label" for="check4"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check5">
+                        <label class="check-label" for="check5"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check6">
+                        <label class="check-label" for="check6"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check7">
+                        <label class="check-label" for="check7"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check8">
+                        <label class="check-label" for="check8"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check9">
+                        <label class="check-label" for="check9"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check10">
+                        <label class="check-label" for="check10"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check11">
+                        <label class="check-label" for="check11"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check12">
+                        <label class="check-label" for="check12"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check13">
+                        <label class="check-label" for="check13"></label>
+                     </div>
+                  </td>
+                  <td>Dashonte Clarke</td>
+                  <td>dashonteclarke@comcast.net</td>
+                  <td>Dr. PAtti Farris</td>
+                  <td>Today</td>
+                  <td>Pending</td>
+                  <td>
+                     <a class="link" href="">Continue</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <div class="box-checkbox">
+                        <input name="check" type="checkbox" id="check14">
+                        <label class="check-label" for="check14"></label>
+                     </div></td>
+                     <td>Dashonte Clarke</td>
+                     <td>dashonteclarke@comcast.net</td>
+                     <td>Dr. PAtti Farris</td>
+                     <td>Today</td>
+                     <td>Pending</td>
+                     <td>
+                        <a class="link" href="">Continue</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="box-checkbox">
+                           <input name="check" type="checkbox" id="check15">
+                           <label class="check-label" for="check15"></label>
+                        </div>
+                     </td>
+                     <td>Dashonte Clarke</td>
+                     <td>dashonteclarke@comcast.net</td>
+                     <td>Dr. PAtti Farris</td>
+                     <td>Today</td>
+                     <td>Pending</td>
+                     <td>
+                        <a class="link" href="">Continue</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="box-checkbox">
+                           <input name="check" type="checkbox" id="check16">
+                           <label class="check-label" for="check16"></label>
+                        </div>
+                     </td>
+                     <td>Dashonte Clarke</td>
+                     <td>dashonteclarke@comcast.net</td>
+                     <td>Dr. PAtti Farris</td>
+                     <td>Today</td>
+                     <td>Pending</td>
+                     <td>
+                        <a class="link" href="">Continue</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="box-checkbox">
+                           <input name="check" type="checkbox" id="check17">
+                           <label class="check-label" for="check17"></label>
+                        </div>
+                     </td>
+                     <td>Dashonte Clarke</td>
+                     <td>dashonteclarke@comcast.net</td>
+                     <td>Dr. PAtti Farris</td>
+                     <td>Today</td>
+                     <td>Pending</td>
+                     <td>
+                        <a class="link" href="">Continue</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div class="box-checkbox">
+                           <input name="check" type="checkbox" id="check18">
+                           <label class="check-label" for="check18"></label>
+                        </div>
+                     </td>
+                     <td>Dashonte Clarke</td>
+                     <td>dashonteclarke@comcast.net</td>
+                     <td>Dr. PAtti Farris</td>
+                     <td>Today</td>
+                     <td>Pending</td>
+                     <td>
+                        <a class="link" href="">Continue</a>
+                     </td>
+                  </tr>
+                  
+               </tbody>
+            </table>
+         </div>
+         <!-- /. Table -->
+      </div>
+      
+      <hr>
+   </section>
+   <div class="modal fade dashboard-modal" id="reassign_patients" role="dialog" aria-modal="true">
+      <div class="modal-dialog modal-dialog-centered popup-md">
+         <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               X
+            </button>
+            <h4 class="modal-title text-center">Reassign Patient</h4>
+            <p class="text-center">Select a physician in your practice to reassign your [insert number selected] patients.</p>
+            <label for="patients">REASSINGN PATIENT(S)</label>
+            <select class="select-lg" name="compare-to" id="patients">
+               <option value="" selected>Select from other practice physicians</option>
+               <option value="physicians1">physicians 1</option>
+               <option value="physicians1">physicians 2</option>
+               <option value="physicians1">physicians 3</option>
+            </select>
+            <div class="bottom-cta pt-5">
+               <a href="#" class="btn btn-primary btn-cta">Reassign</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- /. Reassign Patients -->
+   
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="src/js/jquery.min.js"></script>
+   <script src="src/js/popper.min.js"></script>
+   <script src="src/js/bootstrap4/bootstrap.min.js"></script>
+   <!-- build:js -->
+   <script src="js/main.min.js"></script>
+   <!-- endbuild -->
+</body>
+
+</html>
